@@ -1,0 +1,731 @@
+:root {
+    --bs-dark-rgb: 45, 45, 45;
+    --bs-primary-rgb: 192, 165, 138;
+    --bs-font-monospace: 'Kristi';
+    --bs-light-rgb: 237, 237, 237;
+    --bs-secondary-color: #7e7e7e;
+}
+
+body {
+    font-family: 'Quicksand';
+    letter-spacing: 1px;
+}
+
+.py-100 {
+    padding: 80px 0;
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+.bg-pro {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::selection {
+    background-color: #c0a58a;
+    color: #fff;
+}
+
+.back-to-top-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c0a58a;
+    z-index: 3;
+}
+
+img {
+    object-fit: cover;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+}
+
+.main-title h2 {
+    font-family: 'Kristi';
+    margin: 0;
+    font-size: 50px;
+    color: #eeeeee;
+    line-height: .2;
+}
+
+.main-title h3 {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.offcanvas {
+    font-weight: normal;
+    width: 300px !important;
+}
+
+.offcanvas li {
+    padding: 7px 0;
+    padding-left: 20px;
+}
+
+.offcanvas .menu {
+    padding: 10px 0;
+}
+
+.offcanvas .title {
+    padding: 5px 0;
+}
+
+.btn {
+    color: #FFF;
+    padding: 0 15px;
+    line-height: 28px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: unset;
+    border-color: unset;
+}
+
+.offcanvas a {
+    display: block;
+    padding: 7px 0;
+    padding-left: 20px;
+}
+
+.banner-wrapper {
+    height: 100vh;
+}
+
+.banner {
+    height: 60vh;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(28, 28, 28, 0.2) 0%, rgba(28, 28, 28, 0.7) 100%);
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.btn2 {
+    line-height: 38px;
+    padding: 0 30px;
+    background-color: #c0a58a;
+    border-color: #c0a58a;
+}
+
+.banner .heading {
+    font-family: 'Kristi';
+    letter-spacing: 3px;
+}
+
+.banner .btn2:hover {
+    background-color: #2d2d2d;
+}
+
+.banner .btn2 {
+    font-size: 16px;
+    padding: 4px 35px;
+    font-weight: 700;
+}
+
+header {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.link.active {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+}
+
+.banner p {
+    font-size: 10px;
+}
+
+.topbar {
+    padding: 20px 35px;
+}
+
+.position-relative {
+    z-index: 2;
+}
+
+
+.bheader,
+.about p {
+    font-size: 14px;
+}
+
+.banner_bottom,
+.date h6 {
+    font-size: 14px;
+}
+
+.product .content {
+    background: -webkit-linear-gradient(top, rgba(45, 45, 45, 0.15) 0%, rgba(45, 45, 45, 0.5) 75%, rgba(45, 45, 45, 1) 100%);
+}
+
+.reserve {
+    background-image: url(../images/sec-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reserve .title {
+    letter-spacing: 2px;
+}
+
+.reserve .month {
+    font-size: 12px;
+}
+
+.reserve .number {
+    font-size: 50px;
+}
+
+.services .content {
+    color: #7e7e7e;
+    text-align: center;
+}
+
+.services .content img {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.services .content .service {
+    padding: 30px;
+    width: 98%;
+}
+
+.info {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.info .title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.info .promotions .title,
+.info .delivers .title {
+    font-weight: normal;
+}
+
+.info a {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+.info h2 {
+    margin: 30px 0;
+}
+
+.info .contact p {
+    margin-top: 5px;
+}
+
+.info .contact {
+    background-image: url(../images/bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 106px 0;
+}
+
+.info .times {
+    background-image: url(../images/bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+}
+
+.info .times .content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .promotions {
+    background-image: url(../images/img-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.info .delivers {
+    background-image: url(../images/img-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.info .row {
+    align-content: stretch;
+}
+
+.srow {
+    align-content: stretch;
+}
+
+.facts {
+    background-image: url(../images/thu_banner.jpg);
+    padding: 100px 0;
+    background-position: top;
+}
+
+.fact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fact h3 {
+    font-size: 60px;
+    font-weight: normal;
+}
+
+/* specialities css */
+
+.specialities .content h4 {
+    color: #2d2d2d;
+    font-weight: normal;
+    font-size: 17px;
+    background-color: #fff;
+}
+
+.specialities .content p {
+    color: #7e7e7e;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.specialities .content .btn {
+    padding: 0 10px;
+    line-height: 23px;
+}
+
+.specialities .dish {
+    position: relative;
+}
+
+.specialities .dish::after {
+    content: '';
+    position: absolute;
+    bottom: 14px;
+    width: 100%;
+    border-bottom: 2px dotted #f1f1f1;
+    z-index: -1;
+}
+
+/* contact css */
+
+.contact {
+    background-image: url(../images/fou_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+    gap: 20px;
+}
+
+.contact .content h3 {
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.contact .content span {
+    border-bottom: 1px solid #fff;
+}
+
+/* Footer Css */
+
+footer {
+    background-image: url(../images/footer_bg.jpg);
+    padding: 70px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+footer .links a {
+    display: block;
+}
+
+.footer-bottom {
+    color: #7e7e7e;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0;
+    letter-spacing: 2px;
+}
+
+/* Contact Page CSS ------- */
+
+/* contact banner css */
+
+.contact-banner,
+.about-us-banner {
+    background-image: url(../images/sec-banner.jpg);
+    height: unset !important;
+}
+
+.contact-banner .heading,
+.news-banner .heading,
+.about-us-banner .heading {
+    padding-top: 200px;
+}
+
+.contact-banner .overlay,
+.about-us-banner .overlay {
+    background: -webkit-linear-gradient(top, rgba(45, 45, 45, 0.4) 0%, rgba(45, 45, 45, 0.9) 100%);
+}
+
+/* contactUs css */
+
+.contactUs {
+    padding-top: 100px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 1.8;
+}
+
+.contactUs .form h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #2d2d2d;
+    font-weight: normal;
+}
+
+.contactUs .form input,
+.contactUs .form textarea {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.contactUs .form .btn {
+    font-size: 15px;
+}
+
+.contactUs .form .btn:hover {
+    background-color: #c0a58a;
+    color: #fff;
+}
+
+.contactUs .number {
+    font-size: 29px;
+    color: #2d2d2d;
+}
+
+/* about-us Page CSS ------- */
+
+/* about-us banner css */
+
+.about-us-banner {
+    background-position: top;
+}
+
+.about-first h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.about-first .video {
+    width: 100%;
+    height: 470px;
+}
+
+.about-first p {
+    color: #7e7e7e;
+    font-size: 14px;
+}
+
+/* specialists css */
+
+.specialists {
+    background-image: url(../images/specialist-bg.jpg);
+    position: relative;
+    padding-top: 100px !important;
+    background-position: top;
+}
+
+.specialists .overlay {
+    background: -webkit-linear-gradient(top, rgba(45, 45, 45, 0.7) 0%, rgba(45, 45, 45, .9) 100%);
+}
+
+.specialists .content {
+    background: transparent;
+    font-size: 13px;
+    text-align: center;
+}
+
+.specialists .content h2 {
+    font-size: 20px;
+}
+
+/* gallery Page CSS ------- */
+
+/* gallery css */
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu .title {
+    font-size: 50px;
+}
+
+.menu .btn {
+    background: #1c1c1c;
+}
+
+.news-banner {
+    height: unset !important;
+    background-position: top;
+}
+
+.news-banner .overlay {
+    background: linear-gradient(to bottom, rgba(45, 45, 45, 0.4) 0%, rgba(45, 45, 45, 0.9) 100%);
+}
+
+.news .overlay {
+    background: -webkit-linear-gradient(top, rgba(101, 100, 96, 0) 0%, rgba(101, 100, 96, 0.1) 60%, rgba(101, 100, 96, 0.65) 100%);
+}
+
+.news img {
+    height: 100%;
+}
+
+/* Media Query */
+
+@media (min-width:400px) {
+    .services .content .service {
+        width: 67%;
+    }
+
+    .main-title h2 {
+        font-size: 70px;
+    }
+
+    .main-title h3 {
+        font-size: 50px;
+    }
+
+    .dish-card {
+        width: 70%;
+    }
+
+    footer {
+        padding: 70px 60px;
+    }
+}
+
+@media (min-width:575px) {
+    .banner p {
+        font-size: 15px;
+    }
+
+    .banner {
+        height: 70vh;
+    }
+
+    .services .content .service {
+        width: 50%;
+    }
+
+    .contact {
+        padding: 40px;
+    }
+
+    footer {
+        padding: 70px 0px;
+    }
+
+    .about-first h2 {
+        font-size: 40px;
+    }
+
+}
+
+@media (min-width:768px) {
+    .services .content .service {
+        width: 40%;
+    }
+
+    .contact .content h3 {
+        font-size: 30px;
+    }
+
+    .about-first .video {
+        width: 700px;
+    }
+}
+
+@media (min-width:992px) {
+    .services .content .service {
+        width: 25%;
+    }
+
+    .contact .content span {
+        margin-left: 15px;
+    }
+
+    .about-first .video {
+        width: 800px;
+    }
+}
+
+@media (min-width:1200px) {
+    .banner p {
+        font-size: 20px;
+    }
+
+    .banner,
+    .banner_bottom {
+        margin: 0 35px;
+    }
+
+    .banner nav {
+        width: 60%;
+    }
+
+    .banner {
+        height: 80vh;
+    }
+
+    .products {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .specialists .products {
+        top: 110%;
+    }
+
+    .info .promotions,
+    .info .delivers {
+        padding: 243px 0;
+    }
+
+    .contactUs .number {
+        font-size: 60px;
+    }
+
+    .specialists .content {
+        color: #7e7e7e;
+        padding: 0 30px;
+    }
+
+    .specialists .content h2 {
+        color: #2d2d2d;
+    }
+
+    .specialists {
+        padding-bottom: 160px !important;
+        margin-bottom: 500px;
+    }
+
+    .specialists .content .btn {
+        color: #2d2d2d;
+    }
+
+    .contact-banner .heading,
+    .news-banner .heading,
+    .about-us-banner .heading {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width:1400px) {
+    .banner nav {
+        width: 55%;
+    }
+}
+
+@media (min-width:1600px) {
+    .topbar {
+        padding: 20px 60px;
+    }
+
+    .banner,
+    .banner_bottom {
+        margin: 0 60px;
+    }
+
+    .banner nav {
+        width: 50%;
+    }
+}
+
+@media (min-width:1800px) {
+
+    .banner .heading {
+        font-size: 115px;
+    }
+
+    .banner {
+        height: 88vh;
+    }
+}

@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent</title>
+
+    <!-- Fonts CSS  -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <a href="#" class="back-to-top-btn"><i class="bi bi-arrow-up"></i></a>
+    <header class="text-uppercase">
+        <div class="topbar text-secondary d-none d-xl-flex">
+            <div class="col d-flex align-items-center">
+                <img src="assets/images/languages.png" alt="languages" height="17" width="17">
+                <span class="mx-2">languages</span>
+                <span class="mx-2">en</span>
+                <span class="mx-2">es</span>
+                <span class="mx-2 me-3">it</span>
+                <img src="assets/images/instagram.png" alt="insta" width="17" height="17">
+                <span class="mx-2">instagram</span>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <img src="assets/images/happy-hour.png" alt="happy_hour" width="20" height="20">
+                <span class="mx-2 me-3">happy hour</span>
+                <img src="assets/images/food-delivery.png" alt="food-delivery" width="20" height="20">
+                <span class="mx-2">food delivery</span>
+            </div>
+        </div>
+        <div class="container-fluid p-4 d-xl-none">
+            <div class="row align-items-center">
+                <div class="logo col-9">
+                    <img src="assets/images/logo-dark.png" alt="logo" width="120">
+                </div>
+                <div class="hamburger col-3 fs-1 text-end">
+                    <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"></i>
+                </div>
+                <div class="offcanvas offcanvas-end text-bg-dark bg-dark" data-bs-scroll="true" data-bs-backdrop="false"
+                    tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header justify-content-end pb-0">
+                        <button type="button" class="btn-close btn-close-white border rounded-circle"
+                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body p-2 pt-0 pb-5">
+                        <div class="menus">
+                            <div class="menu">
+                                <div class="title">Home</div>
+                                <ul>
+                                    <li>home 1</li>
+                                    <li>home 2</li>
+                                    <li>home 3</li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <div class="title">About us</div>
+                                <ul>
+                                    <li>About us 1</li>
+                                    <li>About us 2</li>
+                                    <li>About us 3</li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <div class="title">pages</div>
+                                <ul>
+                                    <li>pages 1</li>
+                                    <li>pages 2</li>
+                                    <li>pages 3</li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <div class="title">menu</div>
+                                <ul>
+                                    <li>menu 1</li>
+                                    <li>menu 2</li>
+                                    <li>menu 3</li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <div class="title">shop</div>
+                                <ul>
+                                    <li>shop 1</li>
+                                    <li>shop 2</li>
+                                    <li>shop 3</li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <div class="title">news</div>
+                                <ul>
+                                    <li>news 1</li>
+                                    <li>news 2</li>
+                                    <li>news 3</li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <div class="title">contact</div>
+                                <ul>
+                                    <li>contact 1</li>
+                                    <li>contact 2</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="btn my-3">book a table</button>
+                        <div class="links">
+                            <a href="#">custom plugin</a>
+                            <a href="#">open table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Banner Start  -->
+        <section class="banner position-relative">
+            <div class="container-fluid position-relative h-100">
+                <div
+                    class="d-none d-xl-flex row align-items-center py-4 px-5 justify-content-between text-uppercase bheader header-fix">
+                    <div class="logo col-3">
+                        <img src="assets/images/logo.png" width="120" alt="logo">
+                    </div>
+                    <nav>
+                        <ul class="d-flex justify-content-between align-items-center">
+                            <li><a href="index.html" class="link active">home</a></li>
+                            <li><a href="about-us.html" class="link">about us</a></li>
+                            <li><a href="gallery.html" class="link">Gallery</a></li>
+                            <li><a href="menu.html" class="link">menu</a></li>
+                            <li><a href="shop.html" class="link">Shop</a></li>
+                            <li><a href="news.html" class="link">news</a></li>
+                            <li><a href="contact.html" class="link">contact</a></li>
+                            <li>
+                                <div class="btn">
+                                    book a table
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="mail text-end col-1 col-xxl-2">
+                        <img src="assets/images/ico-07.png" alt="mail" width="25">
+                    </div>
+                </div>
+                <div class="row flex-column align-items-center h-100 justify-content-center text-center">
+                    <p class="title">THE UNIQUE</p>
+                    <h1 class="heading display-2">Restaurant</h1>
+                    <p class="text mb-2">STEACK HOUSE | FISH MENU</p>
+                    <div>
+                        <div class="btn btn2 my-4 border-0">book a table</div>
+                    </div>
+                </div>
+                <div class="down_arrow position-absolute top-100 start-50 translate-middle fs-1 pb-3">
+                    <a href="#about" class="px-1 py-2 bg-primary"><i class="bi bi-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </section>
+        <div class="banner_bottom d-flex flex-wrap py-5 py-xl-3 text-secondary text-center">
+            <div class="col-12 col-xl-6 text-xl-start">
+                <span class="text-uppercase">ADDRESS</span><span> : 143 Avenue, Miami (Florida)</span>
+            </div>
+            <div class="col-12 col-xl-6 text-xl-end">
+                <span class="text-uppercase">EMAIL</span><span> : booking@restaurant.com</span>
+            </div>
+        </div>
+        <!-- Banner End  -->
+        <!-- About Start  -->
+        <section class="about py-4" id="about">
+            <div class="container">
+                <div class="row flex-column flex-xl-row justify-content-between position-relative">
+                    <div class="col-12 col-xl-7 px-sm-5 pt-xl-5">
+                        <div class="main-title">
+                            <h2>About Us</h2>
+                            <h3>RESTAURANT</h3>
+                        </div>
+                        <div class="text-body-secondary lh-lg d-flex flex-column flex-xl-row">
+                            <div class="col-12 col-xl-6">
+                                <p>Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin rhoncus urn a dictum
+                                    neque molestie ultricies.</p>
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <p>Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin rhoncus urn a dictum
+                                    neque molestie ultricies.</p>
+                            </div>
+                        </div>
+                        <div class="btn btn2 my-4">book a table</div>
+                    </div>
+                    <div class="col-xl-4 d-flex flex-column p-0">
+                        <div class="position-relative px-sm-5 px-lg-0 text-center">
+                            <img src="assets/images/image.jpg" class="img-fluid" alt="video">
+                            <img src="assets/images/play-btn.png"
+                                class="position-absolute top-50 start-50 translate-middle" alt="play" width="80"
+                                height="80">
+                        </div>
+                        <div
+                            class="d-flex flex-column align-items-center flex-md-row flex-wrap py-5 justify-content-center products justify-content-xl-start py-xl-0">
+                            <div class="product position-relative col-11 col-md-5 col-xl-2 mx-md-3 my-3">
+                                <img src="assets/images/product-01.jpg" alt="pro1" class="img-fluid">
+                                <div
+                                    class="position-absolute content w-100 h-100 top-0 left-0 d-flex flex-column justify-content-between text-center">
+                                    <div class="text-end p-4">
+                                        <div class="btn btn2 p-0 lh-lg px-3">$ 39</div>
+                                    </div>
+                                    <h4 class="text-light fw-normal pb-3">Sweet Cheeses</h4>
+                                </div>
+                            </div>
+                            <div class="product position-relative col-11 col-md-5 col-xl-2 mx-md-3 my-3">
+                                <img src="assets/images/product-02.jpg" alt="pro1" class="img-fluid">
+                                <div
+                                    class="position-absolute content w-100 h-100 top-0 left-0 d-flex flex-column justify-content-between text-center">
+                                    <div class="text-end p-4">
+                                        <div class="btn btn2 p-0 lh-lg px-3">$ 59</div>
+                                    </div>
+                                    <h4 class="text-light fw-normal pb-3">Fresh Fish</h4>
+                                </div>
+                            </div>
+                            <div class="product position-relative col-11 col-md-5 col-xl-2 mx-md-3 my-3">
+                                <img src="assets/images/product-03.jpg" alt="pro1" class="img-fluid">
+                                <div
+                                    class="position-absolute content w-100 h-100 top-0 left-0 d-flex flex-column justify-content-between text-center">
+                                    <div class="text-end p-4">
+                                        <div class="btn btn2 p-0 lh-lg px-3">$ 29</div>
+                                    </div>
+                                    <h4 class="text-light fw-normal pb-3">Bean Soup</h4>
+                                </div>
+                            </div>
+                            <div class="product position-relative col-11 col-md-5 col-xl-2 mx-md-3 my-3">
+                                <img src="assets/images/product-04.jpg" alt="pro1" class="img-fluid">
+                                <div
+                                    class="position-absolute content w-100 h-100 top-0 left-0 d-flex flex-column justify-content-between text-center">
+                                    <div class="text-end p-4">
+                                        <div class="btn btn2 p-0 lh-lg px-3">$ 99</div>
+                                    </div>
+                                    <h4 class="text-light fw-normal pb-3">Vegetables</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About End  -->
+        <!-- reserve Start  -->
+        <section class="reserve position-relative py-5 my-5 px-3 text-light">
+            <div class="container">
+                <div class="row flex-column flex-lg-row align-items-lg-center flex-wrap position-relative text-center">
+                    <div class="col main-title text-xl-start py-5">
+                        <h2 class="lh-1">Reserve !</h2>
+                        <h3 class="fw-normal fs-2">Book Now</h3>
+                    </div>
+                    <div class="col date py-3">
+                        <div class="title">SET DATE : </div>
+                        <div>
+                            <span class="number">
+                                09
+                            </span>
+                            <span class="d-inline-block month mt-3">
+                                <div>Now</div>
+                                <div><i class="bi bi-chevron-down"></i></div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col guests py-3">
+                        <div class="title">GUESTS : </div>
+                        <div>
+                            <span class="number">
+                                1
+                            </span>
+                            <span class="d-inline-block month mt-3">
+                                <div><i class="bi bi-chevron-up"></i></div>
+                                <div><i class="bi bi-chevron-down"></i></div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col py-5">
+                        <button class="btn btn2 mb-3 px-5 fs-6">book</button>
+                    </div>
+                    <div class="col">
+                        <h3>Discover our New Menu!</h3>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+        </section>
+        <!-- reserve End  -->
+        <!-- services Start  -->
+        <section class="services mt-5 py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="main-title">
+                        <h2>Best Solutions</h2>
+                        <h3>OUR SERVICES</h3>
+                    </div>
+                </div>
+                <div class="row content flex-column align-items-center flex-sm-row justify-content-center">
+                    <div class="service col">
+                        <img src="assets/images/icon-1.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur <u>adipiscing</u> elit. Curabitur ut diam etni</p>
+                    </div>
+                    <div class="service col">
+                        <img src="assets/images/icon2.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, <u>consectetur</u> adipiscing elit. Curabitur ut diam etni</p>
+                    </div>
+                    <div class="service col">
+                        <img src="assets/images/icon3.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <u>Curabitur</u> ut diam etni</p>
+                    </div>
+                    <div class="service col">
+                        <img src="assets/images/icon4.png" alt="">
+                        <p><u>Lorem ipsum</u> dolor sit amet, consectetur adipiscing elit. Curabitur ut diam etni</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services End  -->
+        <!-- info Start  -->
+        <section class="info pb-4">
+            <div class="container">
+                <div class="row flex-column flex-md-row align-items-center">
+                    <div
+                        class="col-12 d-flex flex-column flex-md-row flex-xl-column align-items-center p-0 col-xl-4 row-gap-xl-4">
+                        <div class="col-12 col-sm-10 col-md-6 col-xl-12 contact">
+                            <div class="title">
+                                FIND US HERE
+                            </div>
+                            <p>Avenue Marina 34568 NY (U.S)</p>
+                            <p>+1 374 474 637</p>
+                            <p>info@restaurant.com</p>
+                        </div>
+                        <div class="col-12 col-sm-10 col-md-6 col-xl-12 times">
+                            <div class="title">
+                                OPENING TIMES
+                            </div>
+                            <div class="content">
+                                <span>MON</span>
+                                <span>17:00 to 23:00</span>
+                            </div>
+                            <div class="content">
+                                <span>WED</span>
+                                <span>19:00 to 24:00</span>
+                            </div>
+                            <div class="content">
+                                <span>THU</span>
+                                <span>14:00 to 18:00</span>
+                            </div>
+                            <div class="content">
+                                <span>FRI</span>
+                                <span>16:00 to 24:00</span>
+                            </div>
+                            <div class="content">
+                                <span>SAT/SUN</span>
+                                <span>20:00 to 04:00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div
+                        class="col-12 d-flex flex-column flex-md-row align-items-center p-0 col-xl-8 column-gap-xl-4 ps-xl-4">
+                        <div class="col-12 col-sm-10 col-md-6 col-xl-6 promotions">
+                            <div class="title">
+                                PROMOTIONS
+                            </div>
+                            <h2 class="font-monospace display-1">Fresh Meat</h2>
+                            <a href="#">CHECK THE MENU</a>
+                        </div>
+                        <div class="col-12 col-sm-10 col-md-6 col-xl-6 delivers">
+                            <div class="title">
+                                DAILY DELIVERS
+                            </div>
+                            <h2 class="font-monospace display-1">Local Fish</h2>
+                            <a href="#">CHECK THE MENU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- info End  -->
+        <!-- facts Start  -->
+        <section class="facts position-relative text-light my-5">
+            <div class="container position-relative">
+                <div class="row">
+                    <div
+                        class="fact mb-5 mb-sm-0 col-12 col-sm-6 col-md-4 col-xxl d-flex flex-column flex-sm-row text-center text-sm-start">
+                        <h3 class="col-4">
+                            03
+                        </h3>
+                        <div class="text col">
+                            NUMBER <br> RESTAURANTS
+                        </div>
+                    </div>
+                    <div
+                        class="fact mb-5 mb-sm-0 col-12 col-sm-6 col-md-4 col-xxl d-flex flex-column flex-sm-row text-center text-sm-start">
+                        <h3 class="col-4">
+                            02
+                        </h3>
+                        <div class="text col">
+                            NEW FOOD <br> MENU DISHES
+                        </div>
+                    </div>
+                    <div
+                        class="fact mb-5 mb-sm-0 col-12 col-sm-6 col-md-4 col-xxl d-flex flex-column flex-sm-row text-center text-sm-start">
+                        <h3 class="col-4">
+                            56
+                        </h3>
+                        <div class="text col">
+                            NEW FOOD <br> MENU DISHES
+                        </div>
+                    </div>
+                    <div
+                        class="fact mb-5 mb-sm-0 col-12 col-sm-6 col-md-4 col-xxl d-flex flex-column flex-sm-row text-center text-sm-start">
+                        <h3 class="col-4">
+                            73
+                        </h3>
+                        <div class="text col">
+                            YEARS OF <br> EXPERIENCE
+                        </div>
+                    </div>
+                    <div
+                        class="fact mb-5 mb-sm-0 col-12 col-sm-6 col-md-4 col-xxl d-flex flex-column flex-sm-row text-center text-sm-start">
+                        <h3 class="col-4">
+                            14
+                        </h3>
+                        <div class="text col">
+                            NEW CHEF <br> IN KITCHEN
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </section>
+        <!-- facts End  -->
+        <!-- specialities Start  -->
+        <section class="specialities py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="main-title text-center mb-5">
+                        <h2>Best Menus</h2>
+                        <h3>SPECIALITIES</h3>
+                    </div>
+                </div>
+                <div class="row gap-4 my-4">
+                    <div class="col-sm-9 col-md-12 col-lg d-flex flex-column flex-md-row mx-auto dish-card">
+                        <div class="image col-md-2 me-md-4">
+                            <img src="assets/images/item1.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content pt-3 pt-md-0 col-md d-flex flex-column justify-content-center">
+                            <div class="d-flex justify-content-between dish">
+                                <h4 class="pe-2">PASTA WITH FISH</h4>
+                                <h4 class="ps-2">$ 39</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Lorem ipsum dolor sit</p>
+                                <div>
+                                    <button class="btn btn2">STARTER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-12 col-lg d-flex flex-column flex-md-row mx-auto dish-card">
+                        <div class="image col-md-2 me-md-4">
+                            <img src="assets/images/item2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content pt-3 pt-md-0 col-md d-flex flex-column justify-content-center">
+                            <div class="d-flex justify-content-between dish">
+                                <h4 class="pe-2">NOODLES</h4>
+                                <h4 class="ps-2">$ 16</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Lorem ipsum dolor sit amt</p>
+                                <div>
+                                    <button class="btn btn2">NEW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gap-4 my-4">
+                    <div class="col-sm-9 col-md-12 col-lg d-flex flex-column flex-md-row mx-auto dish-card">
+                        <div class="image col-md-2 me-md-4">
+                            <img src="assets/images/item3.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content pt-3 pt-md-0 col-md d-flex flex-column justify-content-center">
+                            <div class="d-flex justify-content-between dish">
+                                <h4 class="pe-2">FRESH MEAT</h4>
+                                <h4 class="ps-2">$ 26</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Lorem ipsum dolor sit amt</p>
+                                <div>
+                                    <button class="btn text-dark border">new</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-12 col-lg d-flex flex-column flex-md-row mx-auto dish-card">
+                        <div class="image col-md-2 me-md-4">
+                            <img src="assets/images/item4.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content pt-3 pt-md-0 col-md d-flex flex-column justify-content-center">
+                            <div class="d-flex justify-content-between dish">
+                                <h4 class="pe-2">CHICKEN</h4>
+                                <h4 class="ps-2">$ 19</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Lorem ipsum dolor sit amt</p>
+                                <div>
+                                    <button class="btn btn2">NEW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gap-4 my-4">
+                    <div class="col-sm-9 col-md-12 col-lg d-flex flex-column flex-md-row mx-auto dish-card">
+                        <div class="image col-md-2 me-md-4">
+                            <img src="assets/images/item5.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content pt-3 pt-md-0 col-md d-flex flex-column justify-content-center">
+                            <div class="d-flex justify-content-between dish">
+                                <h4 class="pe-2">SPAGHETTI</h4>
+                                <h4 class="ps-2">$ 37</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Lorem ipsum dolor</p>
+                                <div>
+                                    <button class="btn btn2">NEW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-12 col-lg d-flex flex-column flex-md-row mx-auto dish-card">
+                        <div class="image col-md-2 me-md-4">
+                            <img src="assets/images/item6.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content pt-3 pt-md-0 col-md d-flex flex-column justify-content-center">
+                            <div class="d-flex justify-content-between dish">
+                                <h4 class="pe-2">VEGETARIAN FRIED</h4>
+                                <h4 class="ps-2">$ 34</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Lorem ipsum sit</p>
+                                <div>
+                                    <button class="btn btn2">GLUTAN FREE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gap-4 my-4">
+                    <div class="col-sm-9 col-md-12 col-lg d-flex flex-column flex-md-row mx-auto dish-card">
+                        <div class="image col-md-2 me-md-4">
+                            <img src="assets/images/item7.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content pt-3 pt-md-0 col-md d-flex flex-column justify-content-center">
+                            <div class="d-flex justify-content-between dish">
+                                <h4 class="pe-2">VEGETARIAN SOUP</h4>
+                                <h4 class="ps-2">$ 42</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Lorem ipsum dolor sit</p>
+                                <div>
+                                    <button class="btn btn2">VEGAN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-12 col-lg d-flex flex-column flex-md-row mx-auto dish-card">
+                        <div class="image col-md-2 me-md-4">
+                            <img src="assets/images/item8.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content pt-3 pt-md-0 col-md d-flex flex-column justify-content-center">
+                            <div class="d-flex justify-content-between dish">
+                                <h4 class="pe-2">SALMON PASTA</h4>
+                                <h4 class="ps-2">$ 71</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Lorem ipsum dolor sit</p>
+                                <div>
+                                    <button class="btn text-dark border">fish</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- specialities End  -->
+        <!-- contact us start  -->
+        <section>
+            <div class="container">
+                <div class="row m-0 contact justify-content-between bg-pro align-items-center">
+                    <div class="d-flex flex-column flex-xl-row col-xl-8 align-items-center">
+                        <div class="image mb-4 mb-xl-0 pe-xl-4 text-xl-start">
+                            <img src="assets/images/tick.png" width="50" alt="">
+                        </div>
+                        <div class="content col-xl-11 text-xl-start">
+                            <div class="d-flex flex-column flex-xl-row">
+                                <h3>CONTACT US NOW ! <span>+ 12 123 456 789</span></h3>
+
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="button col-xl-3 text-xl-end">
+                        <button class="btn btn2">BOOK A TABLE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact us end  -->
+    </main>
+    <footer>
+        <div class="container position-relative">
+            <div class="row flex-column flex-md-row justify-content-evenly align-items-center row-gap-5">
+                <div class="col-12 col-md-4 col-xl-3 d-flex flex-column row-gap-4">
+                    <div class="icons">
+                        <img src="assets/images/social-1.png" width="20" alt="">
+                        <img src="assets/images/social-2.png" width="20" alt="">
+                        <img src="assets/images/social-3.png" width="20" alt="">
+                        <img src="assets/images/social-4.png" width="20" alt="">
+                        <img src="assets/images/social-5.png" width="20" alt="">
+                    </div>
+                    <div class="title">STAY TUNED</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu libero elit.</p>
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 d-flex flex-column row-gap-4">
+                    <div class="logo">
+                        <img src="assets/images/logo.png" width="120" alt="">
+                    </div>
+                    <div class="links d-flex flex-column row-gap-2">
+                        <a href="mailto: info@restaurant.com">info@restaurant.com</a>
+                        <a href="tel: +12 476 357 384">+12 476 357 384</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-xl-3">
+                    <ul class="d-flex flex-column row-gap-1">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="#">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="#">BOOKING</a>
+                        </li>
+                        <li>
+                            <a href="#">MENU</a>
+                        </li>
+                        <li>
+                            <a href="#">CONTACTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        Copyright 2019 Nicdark Themes
+    </div>
+
+    <!-- Jquery JS  -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS  -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
