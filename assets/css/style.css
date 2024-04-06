@@ -19,6 +19,18 @@ body {
     font-size: 14px;
 }
 
+.offcanvas-body .menu .title{
+    font-size: 25px;
+}
+
+.offcanvas-body .menu li{
+    padding: 0;
+}
+
+footer ul{
+    text-transform: uppercase;
+}
+
 /* Loader */
 
 .loader-wrapper{
